@@ -1,4 +1,4 @@
-# PC-MEGGROLL
+# SubZO
 
 Subspace-constrained low-rank ZO optimization for FSCIL in SNNs.
 
@@ -16,13 +16,13 @@ Subspace-constrained low-rank ZO optimization for FSCIL in SNNs.
 - **LIF Neuron**: Leaky Integrate-and-Fire with stable/adaptive channel partitioning
 - **VGG9SNN**: 9-layer VGG backbone (64→128→256) with LIF activations, T=4 timesteps
 - **Prototype Classifier**: Cosine similarity with orthogonal subspace projection
-- **PC-MEGGROLL**: Low-rank perturbation ES constrained to protection subspace
+- **SubZO**: Low-rank perturbation ES constrained to protection subspace
 
 ## Key Files
 
 - `src/models/vgg9_snn.py` — VGG9SNN backbone
 - `src/models/lif_neuron.py` — LIF neuron with stable/adaptive threshold adaptation
-- `src/methods/pc_meggroll.py` — Core PC-MEGGROLL optimizer
+- `src/methods/pc_meggroll.py` — Core SubZO optimizer
 - `src/methods/prototype_classifier.py` — Prototype computation + subspace projection
 - `src/methods/safa_base.py` — Base-session SAFA training
 

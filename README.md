@@ -1,4 +1,4 @@
-# PC-MEGGROLL
+# SubZO
 
 **Subspace-Constrained Low-Rank Zeroth-Order Optimization for Few-Shot Continual Learning in Spiking Neural Networks**
 
