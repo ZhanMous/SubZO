@@ -1,0 +1,8 @@
+{
+    "base_config": "configs/cifar100_fscil.json",
+    "method_config": "configs/pc_meggroll.json",
+    "sweep": {
+        "rank": [1, 2, 4, 8, 16]
+    },
+    "seeds": [42, 123, 246]
+}

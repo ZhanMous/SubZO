@@ -1,0 +1,60 @@
+{
+  "baseline": {
+    "method": "fullrank_es",
+    "num_params": 2147392,
+    "memory_bytes": 8589568,
+    "gen_time_us": 5785.668434997206
+  },
+  "variants": [
+    {
+      "method": "pc_meggroll",
+      "rank": 1,
+      "num_params": 2147392,
+      "memory_bytes": 11724,
+      "memory_ratio": 732.6482429205049,
+      "gen_time_us": 97.92166799888946,
+      "time_ratio": 59.084659741119005,
+      "compression_ratio": 732.7499147048788
+    },
+    {
+      "method": "pc_meggroll",
+      "rank": 2,
+      "num_params": 2147392,
+      "memory_bytes": 23448,
+      "memory_ratio": 366.32412146025246,
+      "gen_time_us": 134.28449400817044,
+      "time_ratio": 43.08515646374764,
+      "compression_ratio": 366.3749573524394
+    },
+    {
+      "method": "pc_meggroll",
+      "rank": 4,
+      "num_params": 2147392,
+      "memory_bytes": 46896,
+      "memory_ratio": 183.16206073012623,
+      "gen_time_us": 158.8135229976615,
+      "time_ratio": 36.43057798725616,
+      "compression_ratio": 183.1874786762197
+    },
+    {
+      "method": "pc_meggroll",
+      "rank": 8,
+      "num_params": 2147392,
+      "memory_bytes": 93792,
+      "memory_ratio": 91.58103036506311,
+      "gen_time_us": 213.7189109926112,
+      "time_ratio": 27.071392082833654,
+      "compression_ratio": 91.59373933810986
+    },
+    {
+      "method": "pc_meggroll",
+      "rank": 16,
+      "num_params": 2147392,
+      "memory_bytes": 187584,
+      "memory_ratio": 45.79051518253156,
+      "gen_time_us": 319.0077440085588,
+      "time_ratio": 18.13645136728085,
+      "compression_ratio": 45.79686966905493
+    }
+  ]
+}

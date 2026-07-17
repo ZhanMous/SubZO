@@ -1,0 +1,20 @@
+{
+    "method": "pc_meggroll",
+    "rank": 4,
+    "sigma": 0.02,
+    "population_size": 256,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "antithetic": true,
+    "fitness_shaping": "rank",
+    "subspace": {
+        "enabled": true,
+        "projection": "orthogonal",
+        "blend_weight": 0.1
+    },
+    "incremental": {
+        "freeze_backbone": true,
+        "update_classifier": true,
+        "epochs": 50
+    }
+}
